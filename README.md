@@ -43,19 +43,19 @@
 	pip install pyinstaller pillow
 	```
 
-2. **Convert your PNG icon to .ico**     OPTIONAL: preview image exists; goose.png
+2. **Convert your PNG icon to .ico**     OPTIONAL: preview image exists; notepadplusplusplus.png
 
-	Place your png (eg; `goose.png`) in the project root. Then run:
+	Place your png (eg; `notepadplusplusplus.png`) in the project root. Then run:
 
 	```powershell
 	python convert_to_ico.py
-	# This creates goose.ico with all required sizes
+	# This creates notepadplusplusplus.ico with all required sizes
 	```
 
 3. **Build the executable app**
 
 	```powershell
-	pyinstaller --noconfirm --onefile --windowed --name "Notepad+++" --icon goose.ico main.py
+	pyinstaller --noconfirm --onefile --windowed --name "Notepad+++" --icon notepadplusplusplus.ico main.py
 	```
 
 	- Output: `dist\Notepad+++.exe`

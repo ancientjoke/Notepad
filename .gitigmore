@@ -1,0 +1,11 @@
+dist/
+build/
+__pycache__/
+.venv/
+.idea/
+.vs/
+.pytest_cache/
+.mypy_cache/
+.vscode/
+*.spec
+notepadplusplusplus.ico

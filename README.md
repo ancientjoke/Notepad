@@ -3,7 +3,7 @@
 
 # Notepad+++
 
-<img style="width: 25%; aspect-ratio: 1" src="goose.png">
+<img style="width: 25%; aspect-ratio: 1" src="./notepadplusplusplus.png">
 </div>
 
 <br/>

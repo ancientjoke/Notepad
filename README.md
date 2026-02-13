@@ -49,8 +49,8 @@
 
 	```powershell
 	python convert_to_ico.py
-	# This creates notepadplusplusplus.ico with all required sizes
 	```
+	This creates notepadplusplusplus.ico with all required sizes
 
 3. **Build the executable app**
 

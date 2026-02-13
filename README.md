@@ -12,6 +12,8 @@
 
 .pdf annotation app built with Python + PyQt6.
 
+---
+
 1. **Create & activate venv**
 
 	```powershell

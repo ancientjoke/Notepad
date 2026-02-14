@@ -19,7 +19,7 @@
 	```powershell
 	python -m venv .venv
 	.\.venv\Scripts\Activate.ps1
-	# If PowerShell blocks scripts, run (one time):
+	# If PowerShell blocks scripts, run:
 	# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 	```
 
@@ -45,16 +45,7 @@
 	pip install pyinstaller pillow
 	```
 
-2. **Convert your PNG icon to .ico**     OPTIONAL: preview image exists; notepadplusplusplus.png
-
-	Place your png (eg; `notepadplusplusplus.png`) in the project root. Then run:
-
-	```powershell
-	python convert_to_ico.py
-	```
-	This creates notepadplusplusplus.ico with all required sizes
-
-3. **Build the executable app**
+2. **Build the executable app**
 
 	```powershell
 	pyinstaller --noconfirm --onefile --windowed --name "Notepad+++" --icon notepadplusplusplus.ico main.py
@@ -64,8 +55,8 @@
 	- If the icon does not show, ensure goose.ico is valid and in the project root
 	- `--windowed` removes the console window; omit it for debug output
 
-4. **Run the app**
-
+3. **Run the app**
+	located in dist folder as .exe file, pin to taskbar
 	```powershell
 	.\dist\Notepad+++.exe
 	```
@@ -79,4 +70,4 @@ Preview
 
 ---
 
-ide ??
+ide next??

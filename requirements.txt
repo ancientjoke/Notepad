@@ -1,4 +1,3 @@
-# Notepad+++ PDF Viewer & Annotation Application
 
 # Core Framework
 PyQt6>=6.5.0
@@ -14,5 +13,6 @@ Pillow>=10.0.0
 # Database
 SQLAlchemy>=2.0.0
 
-# Performance (optional but recommended)
+# Performance
 numpy>=1.24.0
+

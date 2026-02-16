@@ -12,6 +12,8 @@
 
 .pdf annotation app built with Python + PyQt6.
 
+## Windowns Installation , scroll down for mac
+
 ---
 
 1. **Create & activate venv**
@@ -60,6 +62,11 @@
 	```powershell
 	.\dist\Notepad+++.exe
 	```
+---
+
+## Mac Installation
+
+...
 
 ---
 Preview
